@@ -1,5 +1,3 @@
 # Observe Kittens
 
-## Coming soon
-
-Watch dem Kattarshians!
+Waiting for DNS update...
