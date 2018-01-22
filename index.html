@@ -36,17 +36,26 @@
     <meta property="og:title" content="Observe Kittens!" />
     <meta name="description" content="4 in 1 view to keep up with dem Kattarshians!" />
     <style>
-        html,
-        body {
-            background: #000; height: 100%; overflow: hidden;
-        }
-
         *, *::before, *::after {
             box-sizing: border-box; margin: 0; padding: 0;
         }
 
+        html,
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: #000;
+        }
+        
+        body {
+            display: grid;
+            grid-template: 50vh 50vh / 50vw 50vw;
+        }
+
         iframe {
-            height: 50%; width: 50%; border: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
         }
     </style>
 </head>
